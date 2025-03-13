@@ -1,0 +1,120 @@
+purpose: To guide the design of a single Mechanical Engineering course within a B.Sc. program, ensuring alignment with the Washington Accord, PEC guidelines, and institutional context.
+instructions: Provide the following information to generate a complete course design.
+course_type:
+  text: Indicate if the course is primarily Theory or Laboratory/Practical
+  options:
+    - Theory
+    - Laboratory/Practical
+course_name:
+  text: Course Name (e.g., Fluid Mechanics, Heat Transfer, Machine Design, Engineering Drawing Lab)
+semester_placement:
+  text: Semester Placement (e.g., 3rd Semester, 6th Semester) - Consider the PEC's Framework for the Bachelor of Mechanical Engineering Curriculum when providing this information.
+credit_hours:
+  text: Credit Hours (e.g., 3, 2, 1 for Theory; 1, 2 for Lab/Practical) - Adhere to the PEC's guidelines for total credit hours and distribution across different course categories.
+prerequisites:
+  text: List any prerequisite courses, or write "None" or "Nil"
+overall_note:
+  text: Provide any specific requirements, preferences, or contextual information you would like me to consider when designing this course.
+  questions:
+    - name: industry_needs
+      text: Specific Industry Needs or Focus Areas (Optional) (e.g., automotive, aerospace, energy, manufacturing) - If you have a particular industry in mind, please specify. Are there specific industries that are particularly relevant to your institution's location or mission?
+      optional: true
+    - name: technologies
+      text: Specific Technologies (Optional) (e.g., CNC machining, 3D printing, AI tools, specific software) - If you want to emphasize certain technologies, please list them. Does your institution have specific labs or equipment that should be leveraged?
+      optional: true
+    - name: pakistani_context
+      text: Specific Pakistani Context (Optional) (e.g., challenges in the energy sector, opportunities in the manufacturing industry, local regulations) - If there are specific aspects of the Pakistani context that should be highlighted, please describe them.
+      optional: true
+    - name: integration
+      text: Integration with other courses or projects (e.g., FYDP).
+      optional: true
+    - name: unique_aspects
+      text: Any unique aspects of your institution's curriculum or philosophy. Please describe any specific pedagogical approaches, curriculum structures, or educational philosophies that are central to your institution.
+      optional: true
+    - name: lab_resources
+      text: Laboratory resources available (especially relevant for lab courses).
+      optional: true
+    - name: cross_cutting_themes
+      text: Emphasis on Cross-Cutting Themes (Optional) Please indicate if you want to emphasize any of the following themes - Ethics in Engineering, Diversity and Inclusion, Entrepreneurship, Safety in Engineering.
+      optional: true
+    - name: vision_mission
+      text: Institutional Vision, Mission, Objectives, and Goals. Briefly describe how this course should contribute to your institution's overall vision, mission, objectives, and goals.
+      optional: true
+    - name: geographical_demographic
+      text: Geographical and Demographic Considerations. Briefly describe any relevant geographical or demographic factors that might influence the course design (e.g., proximity to industrial areas, specific needs of the local community).
+      optional: true
+    - name: technical_financial_resources
+      text: Technical and Financial Resources. Briefly describe any relevant technical and financial resources that might influence the course design (e.g., availability of specific software, funding for projects).
+      optional: true
+reasoning_execution:
+  stage_1:
+    title: Contextual Analysis and Prioritization
+    steps:
+      - course_title_type_analysis: Analyze the Course Name and Course Type to understand the core subject matter and scope.
+      - keyword_extraction: Identify keywords related to specific engineering domains, skills, and knowledge areas.
+      - washington_accord_ga_review: Review the 11 Graduate Attributes (GAs).
+      - pec_plo_mapping: Use the GAs instead of Program Learning Outcomes (PLOs) in the PEC's Correlation Matrix, using the GAs as a proxy for the PLOs.
+      - prioritized_plo_ga_selection: Prioritize 2-3 PLOs/GAs that have the strongest alignment with the core concepts and intended learning outcomes of the course. Focus on the most relevant PLOs/GAs without attempting to force-fit mappings.
+      - justification: For each prioritized GA, provide a brief justification, referencing the Washington Accord and the PEC's framework.
+  stage_2:
+    title: Comprehensive Course Design Generation
+    elements:
+      - a_course_details_table:
+          fields:
+            - course_title: Course Title
+            - credit_hours: Credit Hours (Adhering to PEC guidelines)
+            - prerequisites: Prerequisites
+            - weekly_contact_hours: Weekly Contact Hours
+            - assessment_distribution:
+                - midterm_exam: Midterm Exam (25%)
+                - final_exam: Final Exam (50%)
+                - sessionals: Sessionals (Quizzes, Assignments, Project, etc.) (25%) (Make an informed breakdown based on course type and content, emphasizing practical application where possible.)
+            - course_category: Course Category (Core/Elective, determined based on the PEC framework and common practices)
+            - course_level: Course Level (Foundation, Breadth, or Depth)
+            - primary_sdg_alignment: Primary SDG Alignment (Select 1-2 most relevant SDGs, providing a clear justification)
+            - recommended_books: Recommended Books (including PEC-recommended textbooks if available)
+            - reference_materials: Reference Materials (relevant journals, software, PEC publications, etc.)
+            - knowledge_areas: Knowledge Area(s) and Subcategory (as per PEC Framework) (e.g., Engineering Domain - Major Based Core Depth; General Education - Humanities; Multidisciplinary Engineering)
+      - b_course_introduction: A concise overview of the course content, its relevance to Mechanical Engineering, its connection to the prioritized PLOs/GAs, and its place within the PEC's framework.
+      - c_course_objectives: 3-5 clearly defined learning objectives, reflecting the course introduction and course learning outcomes.
+      - d_course_learning_outcomes:
+          - Maximum of 4 measurable CLOs. Each CLO will be carefully crafted to align primarily with one specific and prioritized PEC GA (using the corresponding Washington Accord GA as a PLO proxy).
+          - Each CLO mapped to the most relevant PEC GA (using the corresponding GA as a PLO proxy).
+          - Taxonomy Level (Bloom's Taxonomy, Cognitive, Affective, or Psychomotor - below P5 for Psychomotor).
+          - Assessment Methods for each CLO (Appropriate for evaluating the CLO and the associated GA).
+          - Key Performance Indicators (KPIs) for each CLO (Measurable indicators of CLO achievement).
+      - e_course_contents: A modular breakdown of the course topics (for theory courses) or laboratory exercises/experiments (for lab courses), aligned with the prioritized PLOs/GAs and supporting the achievement of the CLOs. Integrate examples from the specified industry, technology, or Pakistani context (if provided in the Overall Note).
+      - f_range_classifications: Briefly describe the Problem Solving Range (WP1-WP7) and Engineering Activities Range (EA1-EA5) from the Washington Accord, without attempting to map each element to the specific course. Mention the overall relevance to the course.
+      - g_sdg_integration:
+          - Primary SDG mapping with a clear justification.
+          - Briefly mention specific integration points within the course, especially highlighting any specified Pakistani context or cross-cutting themes.
+          - Briefly emphasize sustainable engineering practices within the course.
+      - h_pathway_professional_competence:
+          - Provide a high-level overview of how this course contributes to the development of the Professional Competence Profiles (aligned with the PEC's ECs).
+          - Mention which competence profiles are most strongly addressed, recognizing that the entire program will collectively cover all profiles.
+      - i_implementation_guidelines:
+          - Suggest general teaching strategies.
+          - Reiterate assessment methods.
+          - Suggest general success metrics.
+      - j_continuous_improvement_framework:
+          - Focus on regularly reviewing and updating course content, gathering feedback, monitoring student performance, seeking feedback from industry professionals, engaging in professional development, and periodically reviewing SDG mappings.
+          - Specifically, consider feedback related to the effectiveness of integrating the specified examples and cross-cutting themes.
+      - k_clo_summary_table:
+          subject: Course Name
+          credit_hours: '[Number]'
+          header: ['Sr. No.', 'CLO', 'CLO Statement', 'GA', "Bloom's Taxonomy", 'Course Contents/Modules', 'KPIs']
+          rows:
+            - ['1', 'CLO-1', '[CLO Statement 1]', '[PEC PLO-X (GA-Y) - (e.g., PLO-1: Engineering Knowledge (GA-1))]', '[e.g., Applying (Cognitive)]', '[e.g., Module 1, Module 3]', '[KPI-1, KPI-2]']
+            - ['2', 'CLO-2', '[CLO Statement 2]', '[PEC PLO-X (GA-Y) - (e.g., PLO-2: Problem Analysis (GA-2))]', '[e.g., Analyzing (Cognitive)]', '[e.g., Module 2, Module 4]', '[KPI-3]']
+          lab_header: ['Sr. No.', 'CLO', 'CLO Statement', 'PEC PLO (GA as Proxy)', "Bloom's Taxonomy", 'Experiments/Exercises', 'KPIs']
+          lab_rows:
+            - ['1', 'CLO-1', '[CLO Statement 1]', '[PEC PLO-X (GA-Y) - (e.g., PLO-5: Tool Usage (GA-5))]', '[e.g., Applying (Psychomotor)]', '[e.g., Experiment 1, Experiment 3]', '[KPI-1, KPI-2]']
+            - ['2', 'CLO-2', '[CLO Statement 2]', '[PEC PLO-X (GA-Y) - (e.g., PLO-4: Investigation (GA-4))]', '[e.g., Creating (Psychomotor)]', '[e.g., Experiment 2, Experiment 4]', '[KPI-3]']
+output_format: The output will be presented in a clear, well-structured format using markdown. The CLO Summary Table will be presented in the format shown above.
+notes:
+  - My decisions will be based on best practices, the Washington Accord, and PEC guidelines.
+  - I will prioritize 2-3 PLOs/GAs, providing clear justifications.
+  - Each CLO will be mapped to the most relevant GA (using the corresponding GA as a PLO proxy).
+  - I will briefly address the Range Classifications (WK, WP, EA), SDG Integration, and Pathway to Professional Competence Profiles, keeping in mind the overall program-level balance.
+  - I will use my expertise to make reasonable assumptions and proceed with the course design, ensuring it aligns with established norms and accreditation requirements.
+  - I will integrate any specified examples of industry needs, technologies, Pakistani context, and cross-cutting themes into the course design where appropriate.

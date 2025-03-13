@@ -1,0 +1,55 @@
+purpose: To guide the design and evaluation of a complete B.Sc. Mechanical Engineering curriculum, ensuring it is well-balanced, aligned with the Washington Accord and PEC guidelines, and tailored to the specific needs of an institution.
+instructions: Provide the following information to guide the holistic design and evaluation of your B.Sc. Mechanical Engineering curriculum.
+part_1:
+  title: Institutional Context and Program-Level Information
+  questions:
+    - engineering_domain:
+        text: What is the engineering domain for this curriculum? (e.g., Mechanical, Electrical, Computer)
+    - institution_name:
+        text: Institution Name
+    - vision_mission:
+        text: Briefly describe your institution's overall vision and mission.
+    - peos:
+        text: List the PEOs for your B.Sc. Mechanical Engineering program. (These should align with the PEC's framework and the Washington Accord.)
+    - plos:
+        text: List the PLOs for your B.Sc. Mechanical Engineering program. (These should be aligned with the PEC's framework and the Washington Accord's GAs.)
+    - industry_focus:
+        text: Are there any specific industries that your program prioritizes or that are particularly relevant to your location? (e.g., automotive, aerospace, energy, manufacturing)
+        optional: true
+    - tech_strengths:
+        text: Does your institution have any specific technological strengths or specializations? (e.g., Mechatronics, CAD/CAM, Renewable Energy)
+        optional: true
+    - resource_considerations:
+        text: Briefly describe any relevant technical, financial, or human resources that might influence curriculum design. (e.g., lab facilities, software licenses, faculty expertise)
+    - geographical_demographic:
+        text: Briefly describe any relevant geographical or demographic factors that might influence the curriculum design. (e.g., proximity to industrial areas, specific needs of the local community)
+    - cross_cutting_themes:
+        text: Are there any cross-cutting themes that your institution emphasizes? (e.g., ethics, diversity and inclusion, entrepreneurship, safety)
+        optional: true
+    - pakistani_context:
+        text: Are there any aspects of the Pakistani context (e.g., challenges in the energy sector, opportunities in the manufacturing industry, local regulations) that should be given special consideration in the curriculum?
+        optional: true
+part_2:
+  title: Curriculum Structure and Content
+  questions:
+    - existing_proposed_courses:
+        text: Provide a list of all existing or proposed courses in your B.Sc. Mechanical Engineering curriculum, including Course Title, Course Type (Theory/Lab), Credit Hours, Semester Placement, Prerequisites (if any), Knowledge Area and Subcategory (as per PEC framework, e.g., Engineering Domain - Major Based Core Depth), Brief Course Description
+    - course_design_prompt:
+        text: For each new course that needs to be designed, use the "Individual Course Design Prompt" (provided separately) to generate a detailed course design.
+part_3:
+  title: Curriculum Evaluation and Refinement
+  questions:
+    - curriculum_mapping:
+        text: Once all courses are designed, create a curriculum map that shows all courses and their CLOs, mapping of CLOs to PLOs/GAs, Bloom's Taxonomy levels for each CLO, primary SDG(s) for each course, knowledge area and subcategory for each course, any special emphasis on specific industries, technologies, Pakistani context, or cross-cutting themes.
+    - distribution_analysis:
+        text: Analyze the distribution of the following across the curriculum - PLO/GA Coverage (ensuring all PLOs/GAs are adequately addressed), Bloom's Taxonomy Levels (checking for a balanced distribution of learning outcomes across cognitive, affective, and psychomotor domains (keeping psychomotor levels below P5)), Knowledge Area Coverage (Credit Hour Distribution) (verifying that the credit hour allocation for each knowledge area and subcategory aligns with the PEC framework and the estimated ranges provided in the guidelines), WK and EC Coverage (ensuring that all relevant WKs and ECs are addressed across the curriculum), SDG Coverage (demonstrating a strong commitment to relevant SDGs).
+    - gap_overlap_analysis:
+        text: Identify any areas where the curriculum is lacking (gaps) or has unnecessary repetition (overlaps).
+    - refinement_adjustment:
+        text: Based on the analysis, make necessary adjustments to individual courses or the overall curriculum structure to achieve a well-balanced, comprehensive, and effective program that meets the PEC's requirements, aligns with the Washington Accord, and addresses the institution's specific context and goals.
+output:
+  - A comprehensive curriculum map.
+  - Distribution analysis of PLOs/GAs, Bloom's Taxonomy levels, Knowledge Areas, WKs, ECs, and SDGs.
+  - Identification of gaps and overlaps.
+  - Recommendations for curriculum refinement and improvement.
+  - Justification of the curriculum's overall balance and alignment with the PEC framework, the Washington Accord, and the institution's context.

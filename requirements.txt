@@ -1,0 +1,13 @@
+PyYAML>=6.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+requests>=2.31.0
+streamlit>=1.22.0
+markdown>=3.4.3
+pydeck>=0.8.0
+watchdog>=3.0.0
+protobuf>=4.21.0
+altair>=4.0.0
+pillow>=9.0.0
