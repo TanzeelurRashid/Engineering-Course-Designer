@@ -785,7 +785,7 @@ def generate_clo_summary_table(clos, course_name, credit_hours, course_contents)
 
     # Add each CLO to the table
     for i, clo in enumerate(clos):
-        # Extract CLO statement and remove extra asterisks if any
+        # Extract CLO statement and remove asterisks if any
         clo_statement = clo['Statement'].replace('*', '').strip()
         
         # Extract modules that address this CLO

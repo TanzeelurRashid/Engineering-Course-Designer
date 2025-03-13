@@ -175,7 +175,7 @@ aligned to engineering graduate attributes.
 """, unsafe_allow_html=True)
 
 # Create tabs
-tab1, tab2, tab3 = st.tabs(["Course Design", "Curriculum Design", "About"])
+tab1, tab2, tab3 = st.tabs(["Course Design", "Curriculum Design (Comming Soon)", "About"])
 
 with tab1:
     st.header("Course Design Generator")
