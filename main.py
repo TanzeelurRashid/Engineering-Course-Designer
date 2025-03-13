@@ -778,32 +778,7 @@ def extract_modules_for_clo(course_contents, clo_label):
 
 def generate_clo_summary_table(clos, course_name, credit_hours, course_contents):
     """Generates the CLO Summary Table in Markdown format"""
-    # Create the header part of the table
-    table = f"**Subject:** {course_name}\n**Credit Hours:** {credit_hours}\n\n"
-    table += "| Sr. No. | CLO | CLO Statement | Aligned GA | Bloom's Taxonomy | Course Contents/Modules | KPIs |\n"
-    table += "| :----- | :---- | :------------ | :---------- | :--------------- | :-------------------- | :--- |\n"
-
-    # Add each CLO to the table
-    for i, clo in enumerate(clos):
-        # Extract CLO statement and remove asterisks if any
-        clo_statement = clo['Statement'].replace('*', '').strip()
-        
-        # Extract modules that address this CLO
-        if isinstance(course_contents, str):
-            modules = extract_modules_for_clo(course_contents, f"CLO-{i+1}")
-        elif isinstance(course_contents, list):
-            modules = ', '.join([module.get("Module") for module in course_contents if f"CLO-{i+1}" in module.get("CLOs", "")])
-        else:
-            modules = ""
-
-        # Format KPIs
-        kpis_list = clo.get("KPIs", [])
-        kpis = ', '.join(kpis_list) if isinstance(kpis_list, (list, tuple)) else ""
-
-        # Build the table row
-        table += f"| {i+1} | CLO-{i+1} | {clo_statement} | {clo['GA']} | {clo['Taxonomy']} | {modules} | {kpis} |\n"
-
-    return table
+    return "CLO Summary Table placeholder"
 
 # --- Output Generation ---
 
